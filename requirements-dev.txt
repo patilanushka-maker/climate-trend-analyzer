@@ -1,0 +1,11 @@
+# Development and Testing Dependencies
+# Inherits all runtime dependencies
+-r requirements.txt
+
+# Testing framework and coverage analysis
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code formatting, linting, and style enforcement
+black>=23.7.0
+flake8>=6.1.0
